@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AlibabaRibbonPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <module name="alibaba-ribbon-pay" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.alibaba.alibabaribbonpay.AlibabaRibbonPayApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

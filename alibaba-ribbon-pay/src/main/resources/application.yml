@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        #namespace: bc7613d2-2e22-4292-a748-48b78170f14c  #Ö¸¶¨namespaceµÄid
+  application:
+    name: pay-center
+
+logging:
+  level:
+    com:
+      tuling:
+        mapper: debug
+
+server:
+  port: 8081
+

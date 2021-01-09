@@ -25,6 +25,7 @@
     <modules>
         <module>alibaba-ribbon-order</module>
         <module>alibaba-ribbon-product</module>
+        <module>alibaba-ribbon-pay</module>
     </modules>
     <dependencies>
         <dependency>

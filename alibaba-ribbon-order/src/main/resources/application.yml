@@ -6,6 +6,25 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-        #namespace: bc7613d2-2e22-4292-a748-48b78170f14c  #ָ��namespace��id
+        #namespace: bc7613d2-2e22-4292-a748-48b78170f14c  #ָ��namespace��id
   application:
     name: order-center
+
+#自定义Ribbon的细粒度配置 （推荐配置文件方式）
+#ribbon:
+  #NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #其他默认负载均衡策略
+#product-center:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #product 模块负载均衡策略
+#pay-center:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule  #pay 模块负载均衡策略
+
+
+#开启ribbon饥饿加载,解决微服务调用第一次很慢的情况下
+ribbon:
+  eager-load:
+    enabled: true
+    #可以指定多个微服务用逗号分隔
+    clients: product-center
+    #NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #其他默认负载均衡策略

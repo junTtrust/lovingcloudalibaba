@@ -14,10 +14,22 @@ public class OrderInfoController {
     private RestTemplate restTemplate;
 
     @RequestMapping("/selectOrderInfoById/{orderNo}")
-    public Object selectOrderInfoById(@PathVariable("orderNo") String orderNo) {
+    public String selectOrderInfoById(@PathVariable("orderNo") String orderNo) {
         String forObject = null;
         try {
             forObject = restTemplate.getForObject("http://product-center/selectProductInfoById/" + orderNo, String.class);
+
+        } catch (Exception e) {
+            System.out.println(e.getStackTrace());
+        }
+        return forObject;
+    }
+
+    @RequestMapping("/getOrderAndPayInfoByOrderNo/{orderNo}")
+    public String getOrderAndPayInfoByOrderNo(@PathVariable("orderNo") String orderNo) {
+        String forObject = null;
+        try {
+            forObject = restTemplate.getForObject("http://pay-center/selectPayInfoByOrderNo/"+orderNo, String.class);
 
         } catch (Exception e) {
             System.out.println(e.getStackTrace());
