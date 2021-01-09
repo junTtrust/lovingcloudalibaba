@@ -3,3 +3,5 @@
 
 PayCenterRibbonConfig  配置支付工程采用轮询策略
 ProductCenterRibbonConfig 配置商品工程采用随机策略
+GlobalRibbonConfig 自定义负载均衡算法
+    1.WeightedRule 权重算法：通过nacos 配置权重

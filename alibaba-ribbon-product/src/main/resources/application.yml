@@ -10,4 +10,4 @@ spring:
         #current-version: V2
         #namespace: 20989a73-cdb3-41b8-85c0-e9a3530e28a6
 server:
-  port: 8086
+  port: 8085
