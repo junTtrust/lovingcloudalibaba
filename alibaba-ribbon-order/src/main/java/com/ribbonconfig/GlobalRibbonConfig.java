@@ -1,5 +1,6 @@
 package com.ribbonconfig;
 
+import com.loving.alibabaribbonorder.myrule.TheSameClusterPriorityRule;
 import com.loving.alibabaribbonorder.myrule.WeightedRule;
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;
@@ -16,6 +17,8 @@ public class GlobalRibbonConfig {
     @Bean
     public IRule theSameClusterPriorityRule(){
         //权重
-        return new WeightedRule();
+        //return new WeightedRule();
+        //同集群优先调用
+        return new TheSameClusterPriorityRule();
     }
 }
