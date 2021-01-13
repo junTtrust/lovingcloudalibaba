@@ -6,8 +6,8 @@ spring:
       discovery:
         server-addr: localhost:8848
         cluster-name: BJ-CLUSTER #同集群
-          #metadata:
-        #current-version: V2
+        metadata:
+          current-version: V2
         #namespace: 20989a73-cdb3-41b8-85c0-e9a3530e28a6
 server:
   port: 8084
