@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: product-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server:
+  port: 8082
+logging:
+  level:
+    com:
+      tuling:
+        mapper: debug

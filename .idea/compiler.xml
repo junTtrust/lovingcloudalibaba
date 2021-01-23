@@ -6,10 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-feign-order" />
+        <module name="alibaba-feign-product" />
+        <module name="alibaba-feign-product-api" />
         <module name="alibaba-ribbon-order" />
         <module name="alibaba-ribbon-pay" />
         <module name="alibaba-ribbon-product" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-fegin-product-api" target="1.8" />
+      <module name="alibaba-feign-product-api" target="1.8" />
+      <module name="alibaba-feing-product-api" target="1.8" />
+      <module name="alibabafeignproductapi" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

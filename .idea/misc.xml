@@ -8,7 +8,15 @@
         <option value="$PROJECT_DIR$/alibaba-ribbon-order/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-ribbon-product/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-ribbon-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-feign-order/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-feign-product/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-feign-product-api/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/alibaba-feign-product-api/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

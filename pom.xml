@@ -26,6 +26,9 @@
         <module>alibaba-ribbon-order</module>
         <module>alibaba-ribbon-product</module>
         <module>alibaba-ribbon-pay</module>
+        <module>alibaba-feign-product-api</module>
+        <module>alibaba-feign-order</module>
+        <module>alibaba-feign-product</module>
     </modules>
     <dependencies>
         <dependency>
