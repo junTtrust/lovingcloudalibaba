@@ -1,5 +1,6 @@
 package com.loving.alibabafeignproductapi.productcenter;
 
+import com.loving.config.ProductCenterFeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Author: yijunjun
  * @Date: 2021/1/23 11:36
  */
-@FeignClient(name = "product-center")
+
+//通过java配置版本来指定细粒度配置
+@FeignClient(name = "product-center",configuration = ProductCenterFeignConfig.class)
+//@FeignClient(name = "product-center")
 public interface ProductCenterFeignApi {
 
     /**

@@ -20,10 +20,14 @@ cloud alibaba
 |-- feign
 |   |-- feign-product-api  
 |   |   |--V2021/01/23  初始化feign  
+|   |   |--V2021/01/25  添加日志打印  
 
 |   |-- feign-product
 |   |   |--V2021/01/23  feign 服务提供者  
 
-|   |-- feign-order feign 服务调用者
+
+|   |-- feign-order feign  
+|   |   |--V2020/01/23  服务调用者  
+|   |   |-V2020/01/25   添加日志打印
 
 

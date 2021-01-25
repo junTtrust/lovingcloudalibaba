@@ -1,4 +1,4 @@
-package com.loving.alibabafeignorder.Controller;
+package com.loving.controller;
 
 import com.loving.alibabafeignproductapi.productcenter.ProductCenterFeignApi;
 import org.springframework.beans.factory.annotation.Autowired;
