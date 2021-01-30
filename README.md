@@ -21,16 +21,17 @@ cloud alibaba
 |   |-- feign-product-api  
 |   |   |--V2021/01/23  初始化feign  
 |   |   |--V2021/01/25  添加日志打印  
-|   |   |V--2021/01/30  feign 默认契约(不推荐使用)  
-|   |   |V--2021/01/30  feign 透传token  
+|   |   |--V2021/01/30  feign 默认契约(不推荐使用)  
+|   |   |--V2021/01/30  feign 透传token  
 
 |   |-- feign-product
 |   |   |--V2021/01/23  feign 服务提供者  
-|   |   |V--2021/01/30  feign 透传token  
+|   |   |--V2021/01/30  feign 透传token  
+|   |   |--V2021/01/30  feign 调用优化
 
 |   |-- feign-order feign  
 |   |   |--V2020/01/23  服务调用者  
-|   |   |-V2020/01/25   添加日志打印  
-|   |   |V--2021/01/30  feign 透传token  
-
+|   |   |--V2020/01/25   添加日志打印  
+|   |   |--V2021/01/30  feign 透传token  
+|   |   |--V2021/01/30  feign 调用优化
 

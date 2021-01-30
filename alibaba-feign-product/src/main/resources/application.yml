@@ -7,3 +7,15 @@ spring:
         server-addr: localhost:8848
 server:
   port: 8082
+
+
+#开启连接池配置
+feign:
+  client:
+    config:
+      product-center:
+        loggerLevel: basic
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
