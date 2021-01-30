@@ -1,5 +1,6 @@
 package com.loving.config;
 
+import feign.Contract;
 import feign.Logger;
 import org.springframework.context.annotation.Bean;
 /**
@@ -14,4 +15,12 @@ public class ProductCenterFeignConfig {
         return Logger.Level.FULL;
         //return Logger.Level.BASIC;
     }
+
+    /**
+     * 根据SpringBoot自动装配FeignClientsConfiguration 的FeignClient的契约是SpringMvc
+     * ,通过修改契约为默认的Feign的锲约，那么就可以使用默认的注解
+     */
+//    public Contract feiContract(){
+//        return new Contract.Default();
+//    }
 }

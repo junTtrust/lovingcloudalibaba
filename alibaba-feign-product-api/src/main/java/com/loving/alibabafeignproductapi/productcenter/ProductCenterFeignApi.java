@@ -1,6 +1,8 @@
 package com.loving.alibabafeignproductapi.productcenter;
 
 import com.loving.config.ProductCenterFeignConfig;
+import feign.Param;
+import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,4 +23,12 @@ public interface ProductCenterFeignApi {
 
     @RequestMapping("/selectProductInfoById/{productNo}")
     public String selectProductInfoById(@PathVariable("productNo") String productNo);
+
+    /**
+     * 修改契约feign，默认注解
+     * @param productNo
+     * @return
+     */
+//    @RequestLine("GET /selectProductInfoById/{productNo}")
+//    String selectProductInfoById(@Param("productNo") String productNo);
 }
