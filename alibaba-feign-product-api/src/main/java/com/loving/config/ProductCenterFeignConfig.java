@@ -1,7 +1,9 @@
 package com.loving.config;
 
+import com.loving.handler.LovingRequestInterceptor;
 import feign.Contract;
 import feign.Logger;
+import feign.RequestInterceptor;
 import org.springframework.context.annotation.Bean;
 /**
  * 这个类上千万不要添加@Configuration,不然会被作为全局配置文件共享
@@ -23,4 +25,9 @@ public class ProductCenterFeignConfig {
 //    public Contract feiContract(){
 //        return new Contract.Default();
 //    }
+
+    @Bean
+    public RequestInterceptor requestInterceptor(){
+        return new LovingRequestInterceptor();
+    }
 }

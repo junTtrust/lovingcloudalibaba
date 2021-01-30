@@ -5,6 +5,7 @@ import feign.Param;
 import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -31,4 +32,7 @@ public interface ProductCenterFeignApi {
      */
 //    @RequestLine("GET /selectProductInfoById/{productNo}")
 //    String selectProductInfoById(@Param("productNo") String productNo);
+
+    @RequestMapping("/getToken4Header")
+    public String getToken4Header(@RequestHeader("token") String token);
 }
