@@ -36,6 +36,8 @@ cloud alibaba
 |   |   |--V2021/01/30  feign 调用优化
 
 
-|-- config
-|   |-- config
-|   |   |--V2021/02/06 配置中心初始化
+|-- config  
+|   |-- config  
+|   |   |--V2021/02/06 配置中心初始化  
+                        1.nacos 创建通用配置文件，例：config-app  
+                        2.nacos 创建当前开发环境配置文件，例：config-app-dev  
