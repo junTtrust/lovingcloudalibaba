@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 #nacos 服务器地址
+        file-extension: yml #文件后缀名称
+  application:
+    name: config-app #索要文件名称
+  profiles:
+    active: dev #索要环境

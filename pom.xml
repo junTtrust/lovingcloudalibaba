@@ -29,6 +29,7 @@
         <module>alibaba-feign-product-api</module>
         <module>alibaba-feign-order</module>
         <module>alibaba-feign-product</module>
+        <module>alibaba-config</module>
     </modules>
     <dependencies>
         <dependency>

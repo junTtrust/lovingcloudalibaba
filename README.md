@@ -35,3 +35,7 @@ cloud alibaba
 |   |   |--V2021/01/30  feign 透传token  
 |   |   |--V2021/01/30  feign 调用优化
 
+
+|-- config
+|   |-- config
+|   |   |--V2021/02/06 配置中心初始化
