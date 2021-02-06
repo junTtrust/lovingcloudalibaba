@@ -4,6 +4,15 @@ spring:
       config:
         server-addr: localhost:8848 #nacos 服务器地址
         file-extension: yml #文件后缀名称
+        shared-dataids: common.yml,common2.yml #不同工程下的通用配置，加载顺序，越后面优先级越高，如果内容相同，已第一个优先加载的配置文件的配置为准
+        refreshable-dataids: common.yml,common2.yml
+        ext-config:
+        - data-id: common3.yml
+          group: DEFAULT_GROUP
+          refresh: true
+        - data-id: common4.yml
+          group: DEFAULT_GROUP
+          refresh: true
   application:
     name: config-app #索要文件名称
   profiles:
