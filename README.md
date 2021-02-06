@@ -40,4 +40,5 @@ cloud alibaba
 |   |-- config  
 |   |   |--V2021/02/06 配置中心初始化  
                         1.nacos 创建通用配置文件，例：config-app  
+                        启动项目可见mcat started on port(s): 9001 (http) with context path '/config-app'  
                         2.nacos 创建当前开发环境配置文件，例：config-app-dev  
