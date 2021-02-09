@@ -1,4 +1,4 @@
-package com.loving.alibabaribbonorder.myrule;
+package com.loving.myrule;
 
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
 import com.alibaba.cloud.nacos.ribbon.NacosServer;

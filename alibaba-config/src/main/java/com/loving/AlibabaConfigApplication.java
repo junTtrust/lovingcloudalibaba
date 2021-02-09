@@ -1,4 +1,4 @@
-package com.loving.alibabaconfig;
+package com.loving;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

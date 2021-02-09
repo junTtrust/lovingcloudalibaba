@@ -1,8 +1,6 @@
 package com.ribbonconfig;
 
-import com.loving.alibabaribbonorder.myrule.TheSameClusterPriorityRule;
-import com.loving.alibabaribbonorder.myrule.TheSameClusterPriorityWithVersionRule;
-import com.loving.alibabaribbonorder.myrule.WeightedRule;
+import com.loving.myrule.TheSameClusterPriorityWithVersionRule;
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

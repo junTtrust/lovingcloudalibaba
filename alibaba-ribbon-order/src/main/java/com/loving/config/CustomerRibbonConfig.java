@@ -1,9 +1,6 @@
-package com.loving.alibabaribbonorder.config;
+package com.loving.config;
 
 import com.ribbonconfig.GlobalRibbonConfig;
-import com.ribbonconfig.PayCenterRibbonConfig;
-import com.ribbonconfig.ProductCenterRibbonConfig;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.context.annotation.Configuration;
 

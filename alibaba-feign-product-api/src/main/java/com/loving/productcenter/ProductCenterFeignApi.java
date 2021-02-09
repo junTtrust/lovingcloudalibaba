@@ -1,8 +1,6 @@
-package com.loving.alibabafeignproductapi.productcenter;
+package com.loving.productcenter;
 
 import com.loving.config.ProductCenterFeignConfig;
-import feign.Param;
-import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;

@@ -1,4 +1,4 @@
-package com.loving.alibabaribbonproduct;
+package com.loving;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AlibabaRibbonProductApplication {
+public class AlibabaRibbonOrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AlibabaRibbonProductApplication.class, args);
+        SpringApplication.run(AlibabaRibbonOrderApplication.class, args);
     }
 
 }

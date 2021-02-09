@@ -1,4 +1,4 @@
-package com.loving.alibabaribbonorder.myrule;
+package com.loving.myrule;
 
 import com.alibaba.nacos.api.naming.pojo.Instance;
 import com.alibaba.nacos.client.naming.core.Balancer;
