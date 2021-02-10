@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: product-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:9999
+        #namespace: 20989a73-cdb3-41b8-85c0-e9a3530e28a6
+server:
+  port: 8084
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+

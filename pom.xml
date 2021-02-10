@@ -30,6 +30,8 @@
         <module>alibaba-feign-order</module>
         <module>alibaba-feign-product</module>
         <module>alibaba-config</module>
+        <module>alibaba-sentinel-order</module>
+        <module>alibaba-sentinel-product</module>
     </modules>
     <dependencies>
         <dependency>

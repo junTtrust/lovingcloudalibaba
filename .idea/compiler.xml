@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-config" />
         <module name="alibaba-feign-order" />
         <module name="alibaba-feign-product" />
         <module name="alibaba-feign-product-api" />
         <module name="alibaba-ribbon-order" />
         <module name="alibaba-ribbon-pay" />
         <module name="alibaba-ribbon-product" />
+        <module name="alibaba-sentinel-order" />
+        <module name="alibaba-sentinel-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
