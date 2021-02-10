@@ -1,14 +1,12 @@
 package com.loving.handler;
 
-import com.sun.xml.internal.ws.client.RequestContext;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
-import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.UUID;
+
 
 /**
  * @Author: yijunjun

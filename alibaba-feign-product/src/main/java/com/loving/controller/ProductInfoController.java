@@ -1,6 +1,6 @@
 package com.loving.controller;
 
-import com.loving.alibabafeignproductapi.productcenter.ProductCenterFeignApi;
+import com.loving.productcenter.feignapi.ProductCenterFeignApi;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;

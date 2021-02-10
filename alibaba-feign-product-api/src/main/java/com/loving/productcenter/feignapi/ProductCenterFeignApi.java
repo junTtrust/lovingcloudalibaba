@@ -1,4 +1,4 @@
-package com.loving.productcenter;
+package com.loving.productcenter.feignapi;
 
 import com.loving.config.ProductCenterFeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;

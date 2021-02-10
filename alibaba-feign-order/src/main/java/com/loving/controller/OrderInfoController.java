@@ -1,6 +1,6 @@
 package com.loving.controller;
 
-import com.loving.alibabafeignproductapi.productcenter.ProductCenterFeignApi;
+import com.loving.productcenter.feignapi.ProductCenterFeignApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
