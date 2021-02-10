@@ -50,6 +50,7 @@ cloud alibaba
 |   |   |--V2021/01/10 1.sentinel 项目初始化  
                        2.sentinel 流控模式【关联】  
                        3.流控效果【排队等待】  
+                       4.降级策略  
 
 
 |   |--sentinel-product
