@@ -58,5 +58,18 @@ public class OrderInfoController {
         return UUID.randomUUID().toString();
     }
 
-    /*--------------------------开始-----------------模拟 当saveorder接口访问达到上限，限制findById接口---------------*/
+    /*--------------------------結束-----------------模拟 当saveorder接口访问达到上限，限制findById接口---------------*/
+
+
+    /**
+     * 流控效果【排队等待】
+     * 限制每秒通过的请求数量，其余请求在请求外等待，如果超时则舍弃
+     * @return:
+     * @throws InterruptedException
+     */
+    @RequestMapping("/findAll")
+    public String findAll() throws InterruptedException {
+        Thread.sleep(2000);
+        return "findAll";
+    }
 }

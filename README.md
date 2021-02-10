@@ -47,8 +47,9 @@ cloud alibaba
                         
 |-- sentinel
 |   |--sentinel-order
-|   |   |--V2021/01/10 sentinel 项目初始化  
-|   |   |--V2020/01/10 sentinel 流控模式【关联】  
+|   |   |--V2021/01/10 1.sentinel 项目初始化  
+                       2.sentinel 流控模式【关联】  
+                       3.流控效果【排队等待】  
 
 
 |   |--sentinel-product
