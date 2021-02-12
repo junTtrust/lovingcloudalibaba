@@ -27,4 +27,10 @@ public class ProductInfoController implements ProductCenterFeignApi {
         log.info("token:{}",token);
         return token;
     }
+
+
+    @RequestMapping("/selectProductInfoByIdForSentinel/{productNo}")
+    public String selectProductInfoByIdForSentinel(@PathVariable("productNo") String productNo)  {
+        return productNo;
+    }
 }

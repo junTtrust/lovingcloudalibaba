@@ -3,8 +3,14 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:9999
+        #namespace: bc7613d2-2e22-4292-a748-48b78170f14c  #指定namespace的id
   application:
     name: order-center
+  main:
+    allow-bean-definition-overriding: true
 server:
   port: 8080
 logging:
@@ -22,3 +28,5 @@ feign:
     enabled: true
     max-connections: 200
     max-connections-per-route: 50
+  sentinel:
+    enabled: true
