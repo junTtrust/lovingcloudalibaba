@@ -34,6 +34,7 @@ cloud alibaba
 |   |   |--V2020/01/25   添加日志打印  
 |   |   |--V2021/01/30  feign 透传token  
 |   |   |--V2021/01/30  feign 调用优化
+|   |   |--V2021/02/12  feing 接入sentinel
 
 
 |-- config  
