@@ -60,10 +60,17 @@
         </dependency>
 
         <!--加入sentinel-datasource-nacos-->
-        <!--sentinel 持久化到nacos-->
+        <!--sentinel 持久化到nacos push模式-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.csp</groupId>-->
+            <!--<artifactId>sentinel-datasource-nacos</artifactId>-->
+        <!--</dependency>-->
+
+        <!--sentinel 持久化 阿里ahas-->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-datasource-nacos</artifactId>
+            <artifactId>spring-boot-starter-ahas-sentinel-client</artifactId>
+            <version>1.5.0</version>
         </dependency>
     </dependencies>
 

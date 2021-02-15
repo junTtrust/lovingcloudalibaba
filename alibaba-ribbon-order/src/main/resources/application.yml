@@ -13,38 +13,39 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:9999
-      datasource:
-        # 名称随意 ，-*-rules 表示sentinel 那边写的配置
-        flow:
-          nacos:
-            server-addr: localhost:8848
-            dataId: ${spring.application.name}-flow-rules
-            groupId: SENTINEL_GROUP
-            rule-type: flow
-        degrade:
-          nacos:
-            server-addr: localhost:8848
-            dataId: ${spring.application.name}-degrade-rules
-            groupId: SENTINEL_GROUP
-            rule-type: degrade
-        system:
-          nacos:
-            server-addr: localhost:8848
-            dataId: ${spring.application.name}-system-rules
-            groupId: SENTINEL_GROUP
-            rule-type: system
-        authority:
-          nacos:
-            server-addr: localhost:8848
-            dataId: ${spring.application.name}-authority-rules
-            groupId: SENTINEL_GROUP
-            rule-type: authority
-        param-flow:
-          nacos:
-            server-addr: localhost:8848
-            dataId: ${spring.application.name}-param-flow-rules
-            groupId: SENTINEL_GROUP
-            rule-type: param-flow
+        #sentinel  push 模式
+#      datasource:
+#        # 名称随意 ，-*-rules 表示sentinel 那边写的配置
+#        flow:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-flow-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: flow
+#        degrade:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-degrade-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: degrade
+#        system:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-system-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: system
+#        authority:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-authority-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: authority
+#        param-flow:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-param-flow-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: param-flow
   application:
     name: order-center
 
@@ -72,3 +73,7 @@ ribbon:
 resttemplate:
   sentinel:
     enabled: true
+#sentinel ahas
+ahas.namespace: default
+project,name: order-center
+ahas.license: 832ccdf0e63d4d408f46d040cbfc761e
