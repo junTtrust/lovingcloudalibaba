@@ -10,6 +10,7 @@ cloud alibaba
 |   |   |--V2021/01/13 自定义负载均衡算法--同集群同版本优先 调用(金丝雀发布)  
 |   |   |--V2021/02/12 ribbon 接入sentinel  
 |   |   |--V2021/02/15 ribbon sentinel 接入持久化到nacos  
+|   |   |--V2021/02/15 ribbon sentinel 接入ahas
 |   |-- ribbon-product  
 |   |   |--V2021/01/03 实现ribbon负载均衡  
 |   |   |--V2021/01/12 配置同集群优先调用
