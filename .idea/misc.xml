@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/alibaba-feign-product-api/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-sentinel-order/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-sentinel-product/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
