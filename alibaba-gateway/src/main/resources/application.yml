@@ -13,7 +13,7 @@ spring:
           enabled: false #是否根据微服务名称映射请求
       enabled: true  #是否走网关
   profiles:
-    active: filterfactory-route
+    active: address-route
 #Actuator 监控暴露端点
 management:
   endpoints:

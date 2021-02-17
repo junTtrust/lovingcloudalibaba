@@ -68,3 +68,4 @@ cloud alibaba
                        3.header/method/path断言
                        3.filters:添加请求头信息
                        4.filters:过滤器
+                       5.添加其他类型断言
