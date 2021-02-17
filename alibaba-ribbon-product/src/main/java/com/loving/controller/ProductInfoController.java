@@ -2,6 +2,7 @@ package com.loving.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,5 +18,11 @@ public class ProductInfoController {
             return productNo;
         }
         return "false";
+    }
+
+    @RequestMapping("/gateWay4Header")
+    public Object gateWay4Header(@RequestHeader("X-Request-Company") String company) {
+
+        return "gateWay拿到请求头"+company;
     }
 }

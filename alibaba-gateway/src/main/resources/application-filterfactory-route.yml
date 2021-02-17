@@ -1,0 +1,13 @@
+#当前请求的时间必须在早上7点到 晚上11点 http://localhost:8888/selectProductInfoById/1
+#才会被转发
+#到http://product-center/selectProductInfoById/1
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: filterfacotory-route #id必须要唯一
+        uri: lb://product-center
+        predicates:
+        - TimeBetween=上午7:00,下午11:00
+        filters:
+        - AddRequestHeader=X-Request-Company,Bar
