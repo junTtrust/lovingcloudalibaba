@@ -33,6 +33,7 @@
         <module>alibaba-sentinel-order</module>
         <module>alibaba-sentinel-product</module>
         <module>alibaba-gateway</module>
+        <module>alibaba-gateway-sentinel</module>
     </modules>
     <dependencies>
         <dependency>

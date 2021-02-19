@@ -11,6 +11,7 @@
         <module name="alibaba-feign-product" />
         <module name="alibaba-feign-product-api" />
         <module name="alibaba-gateway" />
+        <module name="alibaba-gateway-sentinel" />
         <module name="alibaba-ribbon-order" />
         <module name="alibaba-ribbon-pay" />
         <module name="alibaba-ribbon-product" />
